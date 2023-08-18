@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+header {
+    background-color: #F4978E;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    top: 0;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 10rem;    
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+section{
+    border: 1px solid #d36767;
+    height: calc(100vh - 6rem);
+    color: #ff8a80;
+}
+
+#tabelas{
+     display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+#listas{
+    margin-top: 6rem;     
+    display: flex;
+    justify-content: center;   
+    flex-direction: column; 
+    align-items: center;
+}
+#formularios{
+    display: flex;
+    justify-content: center;
+}
+
